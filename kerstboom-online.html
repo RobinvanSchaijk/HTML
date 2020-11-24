@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title>forms</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="">
+</head>
+<body>
+
+<h1>Kerstbomen</h1>
+<hr>
+<h2>bestel je kant en klare kerstboom online </h2>
+
+
+<form>
+ <fieldset>
+  <legend>afleveradres:</legend>
+  <label for="naam">naam:</label>
+  <input type="text" id="naam" name="naam"><br>
+  <label for="adres">adres:</label>
+  <input type="text" id="adres" name="adres"><br>
+  <label for="postcode">postcode:</label>
+  <input type="text" id="postcode" name="postcode"><br>
+  <label for="Woonplaats">Woonplaats:</label>
+  <input type="text" id="Woonplaats" name="Woonplaats"><br>
+  <label for="email">emailadres:</label>
+  <input type="email" id="email" name="email"><br>
+  </fieldset>
+  
+  
+  
+  <fieldset>
+  <legend>specificatie kerstboom</legend>
+  
+    <SELECT NAME="browser">
+		<OPTION>Fijnspar</OPTION>
+		<OPTION>Servische spar</OPTION>
+		<OPTION>Nordmann</OPTION>
+		<OPTION>Blauwspar</OPTION>
+	</SELECT>
+	
+	
+	 <p>hoogte van de boom: </p>
+	<input type="radio" id="lengte1" name="hoogte" value="50cm">
+  <label for="vehicle1">50cm</label><br>
+  <input type="radio" id="lengte2" name="hoogte" value="100cm">
+  <label for="vehicle2">100cm</label><br>
+  <input type="radio" id="lengte3" name="hoogte" value="150cm">
+  <label for="vehicle3">150cm</label><br><br>
+  
+  kluit: <input type="radio" name="kluit" value="Ja" /> Ja
+  <input type="radio" name="kluit" value="Nee" /> Nee
+
+	
+  
+  <p>welke versieringen moeten in de boom? </p>
+	<input type="checkbox" id="witte lampjes" name="witte lampjes" value="witte lampjes">
+  <label for="witte lampjes">witte lampjes</label><br>
+  <input type="checkbox" id="lengte2" name="lengte2" value="100cm">
+  <label for="vehicle2">gekleurde lampjes</label><br>
+  <input type="checkbox" id="lengte3" name="lengte3" value="gekleurde lampjes">
+  <label for="vehicle3">rode ballen</label><br>
+  <input type="checkbox" id="lengte2" name="lengte2" value="100cm">
+  <label for="vehicle2">goudkleurige ballen</label><br>
+  <input type="checkbox" id="lengte3" name="lengte3" value="150cm">
+  <label for="vehicle3">goudkleurige slinger</label><br>
+  
+  
+  <p>beschrijf de overige wensen voor de kerstboom:</p><textarea id="opentextbox" name="opentextbox" rows="2" cols="30"> </textarea>
+
+	
+
+		<br>
+		<br>
+		
+		<p> upload een plaatje van je favoriete kerstboomversiering </p>
+
+	<input type="file" id="myFile" name="filename">
+
+
+ </fieldset>
+  
+  
+  
+  
+  
+ 
+</form>
+
+<form method="get" action="bestellinggereed.html">
+    <button type="submit">Versturen</button>
+</form>
+
+
+
+</body>
+</html
